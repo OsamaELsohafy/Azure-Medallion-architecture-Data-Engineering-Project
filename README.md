@@ -2,12 +2,15 @@
 
 ![Project Overview](https://github.com/OsamaELsohafy/Azure-Medallion-architecture-Data-Engineering-Project/blob/main/Project_overview.jpg)
 Overview
+
 This project showcases an End-to-End Data Engineering solution using Azure's ecosystem, structured on the Medallion Architecture framework. It demonstrates data ingestion, transformation, and analytics using Azure Data Factory, Databricks, Azure Synapse Analytics, and PySpark.
 
 The Medallion Architecture categorizes data into:
 
 Bronze Layer: Raw data ingestion from APIs or other sources.
+
 Silver Layer: Cleaned and enriched data for intermediate processing.
+
 Gold Layer: Analytics-ready data for reporting and dashboards.
 
 
