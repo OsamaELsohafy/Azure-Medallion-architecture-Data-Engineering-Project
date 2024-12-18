@@ -233,7 +233,7 @@ df_pro_category.display()
 df_sal.createOrReplaceTempView("df_sal")
 df_product.createOrReplaceTempView("df_product")
 
-# Now you can run the SQL query
+#SQL Query
 query = """
 SELECT * 
 FROM df_sal s 
